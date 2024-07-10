@@ -1,0 +1,27 @@
+# Commands to run in Git-BASH
+# Created...years ago by J.D. Muehlbauer
+# Modified by J.D. Muehlbauer 2024-07-10.
+
+# Initialize git repository (only need to do this the first time).
+git init
+
+# Add remote GitHub repository (only need to do this the first time).
+git remote add origin https://github.com/jmuehlbauer-usgs/LCR.git
+
+# Pull from GitHub repository (if there's newer stuff on GitHub)
+git pull origin main
+
+# Add files to commit (add file or folder names after "add", separated by spaces, or all -A).
+git status
+git add -A
+
+# Delete files, if desired (add file or folder names after "add", separated by spaces).
+git rm
+
+# Commit the changes (Write a short message explaining what you changed after "-m", in quotes).
+git commit -a -m "Type something here."
+
+# Push committed changes to GitHub
+git push origin main
+
+

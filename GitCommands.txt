@@ -23,5 +23,3 @@ git commit -a -m "Type something here."
 
 # Push committed changes to GitHub
 git push origin main
-
-
